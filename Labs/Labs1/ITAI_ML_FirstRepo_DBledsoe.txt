@@ -1,0 +1,2 @@
+# ITAI_ML_FirstRepo_DBledsoe
+This is my first GitHub file for the Classic Machine Learning course.
