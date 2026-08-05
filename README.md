@@ -69,3 +69,8 @@ Methods included:
 
 
 # Repository Structure
+
+
+# Purpose
+
+This portfolio represents my growth throughout the Machine Learning course and demonstrates my ability to organize, document, and communicate technical work professionally.
