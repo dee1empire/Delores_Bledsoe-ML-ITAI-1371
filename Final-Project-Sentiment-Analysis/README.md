@@ -1,74 +1,76 @@
-# Sentiment Analysis Final Project
+## Final Project
 
+### Sentiment Analysis Project: Analyzing Audience Sentiment Toward *The Passion of the Christ*
 
-## Project Overview
+The final project applied Natural Language Processing (NLP) and machine learning techniques to analyze audience sentiment related to *The Passion of the Christ* and comparable religious and biblical-themed films.
 
-The goal of this project was to build a machine learning classification system capable of analyzing movie reviews and predicting whether the sentiment was positive or negative.
+The purpose of this project was to explore how sentiment analysis can be used to understand audience reactions, opinions, and emotional responses within movie reviews and text-based feedback. The project demonstrated the complete machine learning workflow, including data preparation, text preprocessing, feature extraction, model training, evaluation, and interpretation of results.
 
+### Project Objectives
 
-## Dataset
+* Analyze movie review text data using sentiment analysis techniques.
+* Apply Natural Language Processing methods to clean and prepare text data.
+* Convert text data into numerical features using TF-IDF.
+* Train and compare machine learning classification models.
+* Evaluate model performance using accuracy, precision, recall, F1-score, and confusion matrices.
+* Interpret findings from a business and audience insight perspective.
 
-Dataset:
-IMDb Movie Reviews Dataset
+### Dataset
 
-The dataset contains movie review text labeled with sentiment categories:
+The project used the IMDb movie review dataset as the primary source of sentiment data. The dataset contains labeled movie reviews categorized as positive or negative sentiment.
 
-- Positive
-- Negative
+The analysis focused on understanding sentiment patterns related to *The Passion of the Christ* while using other religious and biblical-themed films as comparable examples to explore audience perspectives and reactions.
 
+### Machine Learning Approach
 
-## Business Problem
+The project followed an end-to-end machine learning workflow:
 
-Companies receive large amounts of customer feedback. Automatically identifying sentiment helps organizations understand customer opinions, improve products, and make data-driven decisions.
+1. **Data Exploration and Analysis**
 
+   * Examined dataset structure and sentiment distribution.
+   * Analyzed review characteristics and text patterns.
 
-## Approach
+2. **Text Preprocessing**
 
-The project followed a complete machine learning workflow:
+   * Cleaned review text.
+   * Removed unnecessary characters, punctuation, and noise.
+   * Prepared text data for machine learning.
 
-1. Data exploration
-2. Text preprocessing
-3. Feature extraction
-4. Model training
-5. Model evaluation
+3. **Feature Extraction**
 
+   * Used TF-IDF (Term Frequency-Inverse Document Frequency) to transform text into numerical features.
 
-## Models Used
+4. **Model Development**
 
-Two classification models were developed:
+   * Built and compared two classification models:
 
-### Logistic Regression
+     * Logistic Regression
+     * Multinomial Naive Bayes
 
-Used as a strong baseline model for text classification.
+5. **Model Evaluation**
 
-### Multinomial Naive Bayes
+   * Evaluated model performance using:
 
-Used because it is commonly effective for natural language processing tasks.
+     * Accuracy
+     * Precision
+     * Recall
+     * F1-score
+     * Confusion Matrix
 
+### Project Outcome
 
-## Evaluation
+This project demonstrated how machine learning and natural language processing can be used to analyze audience sentiment and extract meaningful insights from large amounts of text data.
 
-Models were evaluated using:
+The results showed how sentiment analysis can support understanding of audience opinions, identifying emotional responses, and providing data-driven insights into how viewers respond to films with religious, historical, and cultural themes.
 
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion matrix
+### Skills Demonstrated
 
-
-## Key Learning Outcomes
-
-This project improved my understanding of:
-
-- Natural language processing
-- Text preprocessing
-- Feature engineering
-- Machine learning classification
-- Model performance evaluation
-
-
-## Files
-
-- Sentiment Analysis Notebook
-- Project Documentation
+* Python programming
+* Data analysis with Pandas and NumPy
+* Data visualization
+* Natural Language Processing (NLP)
+* Text preprocessing
+* TF-IDF feature engineering
+* Machine learning classification
+* Model evaluation
+* GitHub documentation and project organization
